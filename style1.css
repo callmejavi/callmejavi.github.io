@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'Coda';
+	font-style: normal;
+	font-weight: 800;
+	/* src: local('Coda Heavy'), local('Coda-Heavy'), url(http://themes.googleusercontent.com/static/fonts/coda/v7/XMn0_sSpx9PqyzpvTBBkaA.ttf) format('truetype'); */
+	src: local('Coda Heavy'), local('Coda-Heavy'), url(//themes.googleusercontent.com/static/fonts/coda/v7/XMn0_sSpx9PqyzpvTBBkaA.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Coda';
+	font-style: normal;
+	font-weight: 400;
+	/* src: local('Coda'), local('Coda-Regular'), url(http://themes.googleusercontent.com/static/fonts/coda/v7/KzHY9N-PIagGI86CpWfnZA.ttf) format('truetype'); */
+	src: local('Coda'), local('Coda-Regular'), url(//themes.googleusercontent.com/static/fonts/coda/v7/KzHY9N-PIagGI86CpWfnZA.ttf) format('truetype');
+}
