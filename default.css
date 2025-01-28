@@ -4,7 +4,7 @@ body {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: small;
 	text-align: justify;
-	color: #333631;				/* #555E4F; */
+	color: #333631;							/* #555E4F; */
 }
 
 h1, h2, h3, h4, h5 {
@@ -14,8 +14,8 @@ h1, h2, h3, h4, h5 {
 /* Header */
 
 #header {
-	width: 920px;				/* 	width: 700px; */
-	height: 100px;
+	width: 920px;							/* 	width: 700px; */
+	height: 95px;
 	margin: 0 auto;
 	padding: 0;
 	border: 10px solid #FFFFFF;
@@ -27,15 +27,15 @@ h1, h2, h3, h4, h5 {
 	float: left;
 	margin: 20px 0 0 20px;
 	font-size: 65px;
-	letter-spacing: -1px;		/* -7px; */
+	letter-spacing: -1px;					/* -7px; */
 	color: #323B2E;
 }
 
 #header h2 {
 	float: right;
-	margin: 55px 20px 0 0;		/* margin: 40px 20px 0 0; */
+	margin: 55px 20px 0 0;					/* margin: 40px 20px 0 0; */
 	font-size: 28px;
-	letter-spacing: 1px;		/* -2px; */
+	letter-spacing: 1px;					/* -2px; */
 }
 
 a {
@@ -72,8 +72,8 @@ a:hover {
 
 #menu a {
 	display: block;
-	width: 190px;
-	padding: 15px 0px;
+	width: 170px;
+	padding: 30px 0px;
 	background-color: #788770;
 	border-top: 2px solid #323B2E;			/* border-top: 1px solid #323B2E; */
 	border-bottom: 2px solid #323B2E;		/* border-bottom: 1px solid #788770; */
