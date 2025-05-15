@@ -1,0 +1,149 @@
+body {
+  background: #AFB3A5;
+  text-align: justify;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: #333631;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+a {
+  color: #323B2E;
+  text-decoration: none;
+}
+a:hover {
+  color: #555E4F;
+  text-decoration: none;
+}
+
+/* SHARED LAYOUT CONTAINER */
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+#header {
+  background: #788770;
+  padding: 20px;
+  border: 10px solid #FFFFFF;
+  border-bottom: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+#header h1 {
+  font-size: 48px;
+  color: #323B2E;
+}
+
+#header h2 {
+  font-size: 24px;
+  color: #323B2E;
+}
+
+/* CONTENT */
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  background: #E9EAE2;
+  padding: 20px;
+  border: 10px solid #FFFFFF;
+  border-top: none;
+  box-sizing: border-box;
+}
+
+#colOne {
+  flex: 1 1 200px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#colTwo {
+  flex: 3 1 600px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#menu {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  color: #323B2E;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menu a {
+  display: block;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #788770;
+  border: 2px solid #323B2E;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#menu a:hover {
+  background-color: #AFB3A5;
+  border-width: 5px;
+}
+
+/* FOOTER */
+#footer {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 10px;
+}
+
+/* MAKE IMAGES RESPONSIVE */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* RESPONSIVE RULES */
+@media (max-width: 768px) {
+  #header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #header h1, #header h2 {
+    font-size: 5vw;
+  }
+
+  #content {
+    flex-direction: column;
+  }
+
+  #colOne, #colTwo {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  #menu a {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
